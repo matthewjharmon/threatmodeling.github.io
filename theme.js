@@ -11,5 +11,5 @@ button.addEventListener('click', evt => {
     }
     localStorage.setItem('theme', dark ? 'dark' : 'light')
 })
-button.innerHTML = '🌙️ Changer de thème ☀️'
+button.innerHTML = '🌙️ Nite or Day Theme ☀️'
 document.body.appendChild(button)
