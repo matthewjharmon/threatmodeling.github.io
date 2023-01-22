@@ -4,6 +4,9 @@
         <loc>https://threatmodel.mjh.social/</loc>
     </url>
     <url>
+        <loc>https://threatmodel.mjh.social/assets/</loc>
+    </url>
+    <url>
         <loc>https://threatmodel.mjh.social/risk/</loc>
     </url>
 </urlset>

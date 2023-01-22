@@ -57,19 +57,34 @@
     
 
 <h2 id="introduction">Introduction</h2>
-<p>This is a course on Threat Modeling from Zero to Hero as requested by the We Hack Purple community. The goal of this course is to provide the student with a sufficient background to utilize the provided resources and continue their studies and practically apply the techniques described herein. Each section will consist of a series of relevant topics with examples and exercises for the student. </p>
+<p>This is a tutorial / course on &quot;Threat Modeling from Zero to Hero&quot; as requested by the <a href="https://wehackpurple.com/">We Hack Purple</a> community. The goal of this is to provide the student with a sufficient background in Threat Modeling so that they can utilize the provided resources and continue their studies and practically apply the techniques described herein. Each section will consist of a series of relevant topics with examples and exercises for the student. </p>
 <h2 id="threat-model-vs-risk-assessment">Threat Model vs Risk Assessment</h2>
 <p>A Threat Model can stand on it's own or it can be integrated into a larger <a href="./risk/">Risk Assessment 🧐</a>.</p>
-<p>Risk Assessments typically consist of the following areas, those in bold overlap and complement each other: </p>
+<p>Risk Assessments typically consist of the following areas, however they heavily overlap with Threat Modeling. </p>
 <ol>
-<li>System Characterization and <b>Identifcation of Assets</b></li>
-<li><b>Threat Identification</b></li>
-<li><b>Vulnerability Identification</b></li>
+<li>System Characterization and Identifcation of Assets</li>
+<li>Threat Identification</li>
+<li>Vulnerability Identification</li>
 <li>Control Analysis</li>
-<li><b>Likelihood and Impact Determination</b></li>
+<li>Likelihood and Impact Determination</li>
 <li>Risk Determination and Recommendations</li>
 </ol>
 <p>These are delivered in a Risk Assessment Report and utilize the Threat Modeling to determine individual risks, vulnerabilities, and threats, then qualifies them through understanding the risk determination. </p>
+<h3 id="system-characterization-and-identification-of-assets">System Characterization and Identification of Assets</h3>
+<p>Another way of saying &quot;What data do we have?&quot; and &quot;Where is it?&quot; with a bit of &quot;What are we responsible for?&quot; in typically a <a href="./assets/">spreadsheet form.</a> </p>
+<p>Your input consists of: </p>
+<ol>
+<li>Network Diagrams, </li>
+<li>Hardware, </li>
+<li>Software, </li>
+<li>System interfaces, </li>
+<li>Data and information, </li>
+<li>Data Owners,</li>
+<li>Systems Administrators,</li>
+<li>System mission.</li>
+</ol>
+<p>Through analyzing and organizing the data. You're able to identify IT System boundaries and scope. Produce a list of assets to be risk-managed, and a list of business
+processes related to the assets and their relevance.</p>
 <h3 id="threat-identification">Threat Identification</h3>
 <p>A Threat Model will typically consist of the Input of: </p>
 <ol>
@@ -90,11 +105,42 @@
 <li>Security testing results from both point-in-time testing, and</li>
 <li>Evaluation of system logs. </li>
 </ol>
+<h3 id="control-analysis">Control Analysis</h3>
+<p>During the Control Analysis phase a list of current or planned controls used for the IT system will be generated. This will be used to mitigate the likelihood of a vulnerability being exploited.</p>
+<p>This phase only has two major input and output items. </p>
+<p>The Input is a list of Current and Planned Controls along with what data or system they're associated with, and the output is that list. </p>
 <h3 id="common-techniques">Common Techniques</h3>
 <ol>
 <li>STRIDE</li>
+</ol>
+<ul>
+<li>Spoofing [identity] — identifying authentication threats</li>
+<li>Tampering [with data] — identifying threats to data integrity</li>
+<li>Repudiation</li>
+<li>Information disclosure — identifying data stewardship threats and data leaks</li>
+<li>Denial of service — identifying threats to availability</li>
+<li>Elevation of privilege — identifying authorization vulnerabilities</li>
+</ul>
+<ol start="2">
 <li>DREAD</li>
-<li>MIL-STD</li>
+</ol>
+<ul>
+<li>Damage [potential]</li>
+<li>Reproducibility</li>
+<li>Exploitability</li>
+<li>Affected users</li>
+<li>Discoverability</li>
+</ul>
+<ol start="3">
+<li>MIL-STD 882-E </li>
+</ol>
+<ul>
+<li>This system safety standard practice identifies the Department of Defense (DoD) Systems Engineering (SE) approach to eliminating hazards, where possible, and minimizing risks where those hazards cannot be eliminated. DoD Instruction (DoDI) 5000.02 defines the risk acceptance authorities. </li>
+<li>This Standard covers hazards as they apply to systems / products / equipment / infrastructure (including both hardware and software) throughout design, development, test, production, use, and disposal. </li>
+<li>When this Standard is required in a solicitation or contract but no specific task is identified, only Sections 3 and 4 are mandatory. </li>
+<li>The definitions in 3.2 and all of Section 4 delineate the minimum mandatory definitions and requirements for an acceptable system safety effort for any DoD system.</li>
+</ul>
+<ol start="4">
 <li>Resources</li>
 </ol>
 
@@ -104,7 +150,7 @@
 </ol>
 
 
-<<!-- <% if current_page.data.prev || current_page.data.next %>
+ <!-- <% if current_page.data.prev || current_page.data.next %>
         <nav>
           <% if current_page.data.prev %>
             <a href="/<%= current_page.data.prev %>">⇦ Previous Page</a>
@@ -113,12 +159,13 @@
             <a href="/<%= current_page.data.next %>">Next Page ⇨</a>
           <% end%>
         </nav>
-        <% end %> -->
+	<% end %> -->  
   </main>
   <footer>
     <p>Copyright &copy;2023 </p>
     <p>Matthew J. Harmon. Natascha E. Shawver. </p>
-    <p>This site is a work in progress as of 2023-12-21, please be kind with your <a href="mailto:social-feedback@mjh.email">feedback</a></p>
+    <p>Unless otherwise noted, stmaped, or as may be surmised.</p>
+    <p>This site is a work in progress as of 2023-01-21, please be kind with your <a href="mailto:social-feedback@mjh.email">feedback</a></p>
   </footer>
   <script src="/theme.js"></script>
 </body>
