@@ -71,9 +71,29 @@
     
 
 <h2 id="introduction">Introduction</h2>
-<p>Asset characterization can be macro or micro. In the macro sense we're looking at people, physical objects, buildings, and badge systems. While in the micro we're looking at data flow diagrams consisting of individual processes, entities, data stores, and data flow. </p>
+<p>In it's simplest form, identifying an asset record need only consist of the most basic of information, for example the DB for the Matrix must be stored on a reliable database like PostGreSQL and this is the first primary instance. </p>
+<table><thead><tr><th>Hostname</th><th>Internal Name</th><th>External URL</th><th>Data Owner</th><th>Data Stored</th><th>Project</th></tr></thead><tbody>
+<tr><td>PGSQLDBPROD1</td><td>pgsqldbprod1.local</td><td>none</td><td>tom.anderson</td><td>90's Sim</td><td>Matrix v1</td></tr>
+</tbody></table>
 <h3 id="asset-identification">Asset Identification</h3>
+<p>However in practice, most likely will be storing their asset identification database in another database like SQLiteDB with a CSV export or if large enough Splunk or a complex process driven environment that uses a business process relationship tool like SAP may use that for their database, or a Microsoft shop may use SharePoint. </p>
+<p>Regardless of the method, the completeness of the Asset Identification and System Characterization is paramount to the success of your Threat Modeling exercise. </p>
+<p>Items to consider adding to your Asset Identifcation database: </p>
+<ol>
+<li>Hostname</li>
+<li>Internal Name (or VPN name) </li>
+<li>External URL if it is supposed to be on the internet</li>
+<li>Owner of the data used in that system </li>
+<li>The project that is responsible for the system that the data is on</li>
+</ol>
 <h3 id="system-characterization">System Characterization</h3>
+<p>The system characterization can live in the same location as your asset identification, however it is generally a good practice to separate but have a common key between the two so that you can look the host up. A primary key such as the hostname is typically a good starting point. The purpose of the system categorization is influenced by both criticality to business processing, and sensitivity to the business. </p>
+<p>Criticality is typically thought of as &quot;What would happen if this suddenly didn't exist anymore?&quot; as a place holder for a cataclysmic event ranging from hurricane to cyber attack or in terse terms the &quot;value&quot; to the organization. </p>
+<p>Further, sensitivity includes elements such as trade secrets, financial recorods, human resources records, and not least customer sales records. This sensitivity should take into consideration the value to an attacker as well as what the impact would be to the business if this information should become for sale on a secondary market. Common characterizations include &quot;Sensitive&quot;, &quot;Confidential&quot;, &quot;Highly Confidential&quot;, and &quot;Restricted.&quot; While impact values may include &quot;Low&quot;, &quot;Medium&quot;, &quot;High&quot;, and &quot;Critical&quot; taking into account what would happen to business operations if that system or cluster were to become unavailable.</p>
+<p>In addition, then building a new system it is best to take that opportunity to populate a contact record for the system in addition to its characterization.</p>
+<table><thead><tr><th>Hostname</th><th>Location</th><th>Bus. Contact</th><th>Data Owner</th><th>Compliance Cont.</th><th>EU</th><th>Class</th></tr></thead><tbody>
+<tr><td>PGSQLDBPROD1</td><td>LOC 22</td><td>a.smith</td><td>mach80312</td><td>mach051247</td><td>N</td><td>R/C</td></tr>
+</tbody></table>
 <h4 id="data-flow-diagrams">Data Flow Diagrams</h4>
 
 
