@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: wp-login.php
+Disallow:
 Allow: /
 Sitemap: https://threatmodel.mjh.social/sitemap.xml

@@ -7,9 +7,24 @@
         <loc>https://threatmodel.mjh.social/assets/</loc>
     </url>
     <url>
+        <loc>https://threatmodel.mjh.social/controls/</loc>
+    </url>
+    <url>
+        <loc>https://threatmodel.mjh.social/dfd/</loc>
+    </url>
+    <url>
+        <loc>https://threatmodel.mjh.social/impact/</loc>
+    </url>
+    <url>
         <loc>https://threatmodel.mjh.social/risk/</loc>
     </url>
     <url>
         <loc>https://threatmodel.mjh.social/threat-interview/</loc>
+    </url>
+    <url>
+        <loc>https://threatmodel.mjh.social/threat/</loc>
+    </url>
+    <url>
+        <loc>https://threatmodel.mjh.social/vulnerabilities/</loc>
     </url>
 </urlset>
