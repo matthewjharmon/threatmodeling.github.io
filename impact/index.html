@@ -74,8 +74,11 @@
 <p>Determining likelihood and impact of cyber incidents is something that the <a href="https://ar.casact.org/cyber-challenges/">Actuarial Science</a> (<a href="https://archive.is/2zqVs">Local</a>) has been working on for the past couple decades and we're just now starting to get a view of how risky behaviors lead to opportunities for threat agents and what the cost is to recover from these events and impact to those involved. </p>
 <h3 id="likelihood">Likelihood</h3>
 <p>The likelihood input is the threat-source motivation, threat capacity, nature of vulnerability vs the currently deployed controls with the output being a likelihood value.</p>
+<p>Threat Intelligence sources, as well as your known control gaps (flaws, or vulnerabilities), and known attack techniques can help you determine the likelihood. For the ease of description we'll use &quot;Low&quot; &quot;Med&quot; &quot;High&quot;, and &quot;Crit.&quot;  No likelihood or impact goes below low or above critical which is a &quot;reasonable degree of certainty.&quot; Low may be something between 0% - 25%, Medium as 25% - %75 high as 75 - 95% and above 95%. </p>
 <h3 id="impact">Impact</h3>
 <p>The impact determination is based on the mission impact analysis, asset criticality assessment, data criticality, and data sensitivity with an impact rating being the output.</p>
+<p>The thing about impact is that like probability or likelihood, the impact of any event cannot reasonably be below a range of low. No matter what steps are taken after a data exfiletration event, or a contaminated build pipeline, or an accidential change of a blood type. Once these things have been actioned, there is no taking back your data, or undeploying an update with an intentional flaw, and modifications to or reducing availability to medical records can have catastrophic effects. Impact deterrminations are typically measured in loss and include things such as loss of life on the critical side, loss of revenue on the high side, loss of availability would be medium, and random defacement of a website is low impact. </p>
+<p>However, impact has a long tail when it relates to loss. Loss of control of data that is confidential may expose something embarassing about someone or, or injury due to failed integrity controls. </p>
 <h3 id="examples">Examples</h3>
 
 
