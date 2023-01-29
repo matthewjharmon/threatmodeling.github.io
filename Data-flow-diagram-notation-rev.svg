@@ -113,35 +113,41 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-26.400296,-33.36217)">
+    <circle
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2160"
+       cx="76.898804"
+       cy="81.526619"
+       r="33.500008" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#c1272d;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#23103e;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="137.48247"
-       y="74.493408"
+       y="88.501099"
        id="text4103"
        transform="scale(1.0005478,0.9994525)"><tspan
          sodipodi:role="line"
          id="tspan4105"
          x="137.48247"
-         y="74.493408">Function</tspan></text>
+         y="88.501099">Function</tspan></text>
     <g
        id="g6057"
        transform="matrix(0.7513262,0,0,0.7414362,15.211647,15.391729)"
-       style="stroke:#c1272d;stroke-opacity:1">
+       style="stroke:#23103e;stroke-opacity:1">
       <path
          sodipodi:nodetypes="cc"
          id="path5076"
          d="M 30,192.36218 H 140"
-         style="fill:none;fill-rule:evenodd;stroke:#c1272d;stroke-width:2.67965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:none;fill-rule:evenodd;stroke:#23103e;stroke-width:2.67965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <path
          sodipodi:nodetypes="cc"
          id="path5078"
          d="M 29.532644,234.20154 H 139.53265"
-         style="fill:none;fill-rule:evenodd;stroke:#c1272d;stroke-width:2.67965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:none;fill-rule:evenodd;stroke:#23103e;stroke-width:2.67965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#c1272d;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#23103e;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="137.48247"
        y="172.62914"
        id="text6053"
@@ -151,22 +157,15 @@
          x="137.48247"
          y="172.62914">File/Database</tspan></text>
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#23103e;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect6079"
        width="82.753632"
        height="41"
        x="37.521988"
        y="236.02663" />
-    <rect
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#c1272d;stroke-width:2.43525;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect6079-3"
-       width="95.158325"
-       height="52.86301"
-       x="30.634838"
-       y="229.72046" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#c1272d;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#23103e;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="137.32524"
        y="254.37234"
        id="text6081"
@@ -177,19 +176,19 @@
          y="254.37234">Input/Output</tspan></text>
     <g
        id="g2179"
-       style="stroke:#c1272d;stroke-opacity:1">
+       style="stroke:#23103e;stroke-opacity:1">
       <path
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#c1272d;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#23103e;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M 80.9375,326.59375 C 74.651384,326.35879 68.759399,327.16235 63.53125,328.5 C 49.589519,332.06706 40.21875,339.21875 40.21875,339.21875 L 41.4375,340.8125 C 41.4375,340.8125 50.501654,333.89911 64.03125,330.4375 C 77.560846,326.97589 95.419101,326.95577 113.21875,340.8125 L 114.4375,339.25 C 102.99058,330.33876 91.414359,326.98535 80.9375,326.59375 z "
          id="path6087" />
       <path
-         style="fill-rule:evenodd;stroke:#c1272d;stroke-width:0.4pt;marker-start:none;stroke-opacity:1"
+         style="fill-rule:evenodd;stroke:#23103e;stroke-width:0.4pt;marker-start:none;stroke-opacity:1"
          d="M 117.47001,342.86217 L 109.55241,341.76763 L 114.46671,335.45497 L 117.47001,342.86217 z "
          id="path2185" />
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#c1272d;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#23103e;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="137.48247"
        y="334.05557"
        id="text10169"
@@ -199,17 +198,11 @@
          x="137.48247"
          y="334.05557">Flow</tspan></text>
     <ellipse
-       style="fill:#c1272d;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.24225;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#ececec;fill-opacity:1;fill-rule:evenodd;stroke:#23103e;stroke-width:2.24225;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path2160-3"
-       cx="69.054443"
-       cy="75.99675"
+       cx="77.054443"
+       cy="83.99675"
        rx="37.84845"
        ry="37.269222" />
-    <circle
-       style="opacity:1;fill:#c1272d;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:7.29722;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path2160"
-       cx="68.898804"
-       cy="75.526619"
-       r="33.500008" />
   </g>
 </svg>
