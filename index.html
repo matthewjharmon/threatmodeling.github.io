@@ -81,7 +81,10 @@
 <li>External Entity (Customer)</li>
 </ol>
 <p>There are numerous notations however the Yourdon/DeMarco notation is the most common.</p>
-<p><img src="https://threatmodel.mjh.social/Data-flow-diagram-notation.svg" alt="Yourdon/DeMarco Notation" /></p>
+<p><img src="https://threatmodel.mjh.social/Data-flow-diagram-notation-rev.svg" alt="Yourdon/DeMarco Notation" /></p>
+<center>from Wikicommons</center>
+<h4 id="threat-model-as-code">Threat Model as Code</h4>
+<p><a href="https://github.com/threatspec/threatspec">Threat Model as Code</a> Data Flow Diagrams can be generated with software that dramatically improves the reproducibility of the process and often will expose you to routes the data may take that you hadn't considered. </p>
 <h3 id="system-characterization-and-identification-of-assets">System Characterization and Identification of Assets</h3>
 <p><a href="./assets/">Assets</a> are what are at risk things that need to be protected. This process is another way of asking: </p>
 <ul>
@@ -132,7 +135,9 @@ processes related to the assets and their relevance.</p>
 <p>The likelihood input is the threat-source motivation, threat capacity, nature of vulnerability vs the currently deployed controls with the output being a likelihood value
 The impact determination is based on the mission impact analysis, asset criticality assessment, data criticality, and data sensitivity with an impact rating being the output</p>
 <h2 id="threat-modeling-techniques">Threat Modeling Techniques</h2>
-<h3 id="stride">STRIDE</h3>
+<p>There are a large number of <a href="./threat">Threat Modeling Techniques</a> that can be utilized but Threat Modeling of code has the option of <a href="https://github.com/threatspec/threatspec">Threat Model as Code</a> automation. </p>
+<p>Outside of TM-aC there are a few prominant threat model methods</p>
+<h3 id="stride"><a href="https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats">STRIDE</a></h3>
 <ul>
 <li><b>S</b>poofing [identity] — identifying authentication threats</li>
 <li><b>T</b>ampering [with data] — identifying threats to data integrity</li>
@@ -141,7 +146,7 @@ The impact determination is based on the mission impact analysis, asset critical
 <li><b>D</b>enial of service — identifying threats to availability</li>
 <li><b>E</b>levation of privilege — identifying authorization vulnerabilities</li>
 </ul>
-<h3 id="dread">DREAD</h3>
+<h3 id="dread"><a href="https://owasp.org/www-community/Threat_Modeling_Process">DREAD</a></h3>
 <ul>
 <li><b>D</b>amage [potential]</li>
 <li><b>R</b>eproducibility</li>
@@ -149,20 +154,7 @@ The impact determination is based on the mission impact analysis, asset critical
 <li><b>A</b>ffected users</li>
 <li><b>D</b>iscoverability</li>
 </ul>
-<h3 id="pasta">PASTA</h3>
-<p><b>P</b>rocess for <b>A</b>ttack <b>S</b>imulation and <b>T</b>hreat <b>A</b>nalysis</p>
-<h3 id="trike">TRIKE</h3>
-<p><a href="https://www.octotrike.org/">Trike</a> is a a data centric open source threat modeling methodology and tool.</p>
-<h3 id="osstmm">OSSTMM</h3>
-<p>The <a href="https://www.isecom.org/research.html">Open Source Security Testing Methodology Manual</a> by <a href="https://www.isecom.org/">ISECOM</a> includes testing, analysis, and measurement of operational security. </p>
-<h3 id="mil-std-882-e">MIL-STD 882-E</h3>
-<ul>
-<li>This system safety standard practice identifies the Department of Defense (DoD) Systems Engineering (SE) approach to eliminating hazards, where possible, and minimizing risks where those hazards cannot be eliminated. DoD Instruction (DoDI) 5000.02 defines the risk acceptance authorities. </li>
-<li>This Standard covers hazards as they apply to systems / products / equipment / infrastructure (including both hardware and software) throughout design, development, test, production, use, and disposal. </li>
-<li>When this Standard is required in a solicitation or contract but no specific task is identified, only Sections 3 and 4 are mandatory. </li>
-<li>The definitions in 3.2 and all of Section 4 delineate the minimum mandatory definitions and requirements for an acceptable system safety effort for any DoD system.</li>
-</ul>
-<table><thead><tr><th>59971</th></tr></thead><tbody>
+<table><thead><tr><th>59972</th></tr></thead><tbody>
 </tbody></table>
 
 
@@ -186,7 +178,7 @@ The impact determination is based on the mission impact analysis, asset critical
     <p>Copyright &copy;2023 </p>
     <p>Matthew J. Harmon. Natascha E. Shawver. </p>
     <p>Unless otherwise noted, stamaped, or as may be surmised.</p>
-    <p>This site is a work in progress as of 2023-01-27, please be kind with your <a href="mailto:social-feedback@mjh.email">feedback</a></p>
+    <p>This site is a work in progress as of 2023-01-23, please be kind with your <a href="mailto:social-feedback@mjh.email">feedback</a></p>
   </footer>
   <script src="/theme.js"></script>
 </body>

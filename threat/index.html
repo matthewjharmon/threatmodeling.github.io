@@ -72,14 +72,42 @@
 
 <h1 id="introduction">Introduction</h1>
 <p>Threat Modeling is not just for data, but also for people, places and assets. </p>
-<h2 id="threat-model-components">Threat Model Components</h2>
-<ol>
-<li>Person</li>
-<li>Place</li>
-<li>Thing</li>
-<li>Risk</li>
-<li>Threat</li>
-</ol>
+<h2 id="threat-modeling-techniques">Threat Modeling Techniques</h2>
+<h3 id="stride"><a href="https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats">STRIDE</a></h3>
+<ul>
+<li><b>S</b>poofing [identity] — identifying authentication threats</li>
+<li><b>T</b>ampering [with data] — identifying threats to data integrity</li>
+<li><b>R</b>epudiation</li>
+<li><b>I</b>nformation disclosure — identifying data stewardship threats and data leaks</li>
+<li><b>D</b>enial of service — identifying threats to availability</li>
+<li><b>E</b>levation of privilege — identifying authorization vulnerabilities</li>
+</ul>
+<h3 id="dread"><a href="https://owasp.org/www-community/Threat_Modeling_Process">DREAD</a></h3>
+<ul>
+<li><b>D</b>amage [potential]</li>
+<li><b>R</b>eproducibility</li>
+<li><b>E</b>xploitability</li>
+<li><b>A</b>ffected users</li>
+<li><b>D</b>iscoverability</li>
+</ul>
+<h3 id="pasta">PASTA</h3>
+<p><b>P</b>rocess for <b>A</b>ttack <b>S</b>imulation and <b>T</b>hreat <b>A</b>nalysis</p>
+<p><img src="https://threatmodel.mjh.social/threat/../PASTA-Threat-Modeling-Stages.jpg" alt="PASTA Process by Threat Model.com" /></p>
+<h3 id="trike">TRIKE</h3>
+<p><a href="https://www.octotrike.org/">Trike</a> is a a data centric open source threat modeling methodology and tool.</p>
+<p><img src="https://threatmodel.mjh.social/threat/../octotrike_logo.png" alt="OctoTrike" /></p>
+<h3 id="osstmm">OSSTMM</h3>
+<p>The <a href="https://www.isecom.org/research.html">Open Source Security Testing Methodology Manual</a> by <a href="https://www.isecom.org/">ISECOM</a> includes testing, analysis, and measurement of operational security.</p>
+<p><img src="https://threatmodel.mjh.social/threat/../osstmm-160x.png" alt="OSSTMM" /></p>
+<center>by</center>
+<p><img src="https://threatmodel.mjh.social/threat/../logo-isecom-newcolors-412x120.png" alt="ISECOM" /></p>
+<h3 id="mil-std-882-e">MIL-STD 882-E</h3>
+<ul>
+<li>This system safety standard practice identifies the Department of Defense (DoD) Systems Engineering (SE) approach to eliminating hazards, where possible, and minimizing risks where those hazards cannot be eliminated. DoD Instruction (DoDI) 5000.02 defines the risk acceptance authorities.</li>
+<li>This Standard covers hazards as they apply to systems / products / equipment / infrastructure (including both hardware and software) throughout design, development, test, production, use, and disposal.</li>
+<li>When this Standard is required in a solicitation or contract but no specific task is identified, only Sections 3 and 4 are mandatory. </li>
+<li>The definitions in 3.2 and all of Section 4 delineate the minimum mandatory definitions and requirements for an acceptable system safety effort for any DoD system.</li>
+</ul>
 
 
 
